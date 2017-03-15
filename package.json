@@ -4,7 +4,7 @@
   "description": "ecoreleve mobile",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/eslint --fix ."
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/NaturalSolutions/ecoReleve-mobile/issues"
   },
-  "homepage": "https://github.com/NaturalSolutions/ecoReleve-mobile#readme"
+  "homepage": "https://github.com/NaturalSolutions/ecoReleve-mobile#readme",
+  "devDependencies": {
+    "eslint": "^3.17.1",
+    "eslint-config-airbnb-base": "^11.1.1",
+    "eslint-plugin-import": "^2.2.0"
+  }
 }
